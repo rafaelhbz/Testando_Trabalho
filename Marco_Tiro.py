@@ -30,7 +30,7 @@ while i < len(cartas):
     
 print(baralho_novo)
 
-lista = ["fandangos_de_presunto"]
+
     
 
     
