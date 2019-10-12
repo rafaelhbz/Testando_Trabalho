@@ -20,7 +20,9 @@ if jogo_começa == True:
     print("O jogo vai começar!")
     
 while jogo_começa == True:
+    # aqui a gente vai começar o jogo
     if dinheiro > 0:
         dinheiro = 0
+    # aqui o jogo vai ser finalizado, quando a pessoa ter 0 reais ou menos
     elif dinheiro == 0:
         jogo_começa = False

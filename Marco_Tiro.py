@@ -29,6 +29,8 @@ while i < len(cartas):
     i+=1
     
 print(baralho_novo)
+
+lista = ["fandangos_de_presunto"]
     
 
     
