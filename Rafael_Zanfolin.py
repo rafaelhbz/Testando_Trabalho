@@ -7,10 +7,10 @@ Created on Sat Oct 12 12:34:40 2019
 
 jogo_10começa = 0
 
-dinheiro = int(input("Quanto dinheiro você quer apostar"))
+dinheiro = int(input("Quanto dinheiro você quer apostar ? "))
 
 if dinheiro < 0:
-    print("Você está maluco?!?")
+    print("Você está maluco ?!?")
 elif dinheiro == 0:
     print("Vai se fude")
 else:
