@@ -6,7 +6,7 @@ Created on Sat Oct 12 12:30:37 2019
 """
 #------------------------------ Feature 1 ----------------------------------  
 
-game_start = False
+jogo_comeca = False
 
 dinheiro_do_jogador = int(input('Quanto dinheiro vc tem disponivel para o jogo ? '))
 while dinheiro_do_jogador < 0 or dinheiro_do_jogador == 0:
@@ -26,10 +26,10 @@ elif dinheiro_do_jogador < 0:
 elif aposta < 0:
     print('Qual é o seu problema ?')
 else:
-    game_start = True
+    jogo_comeca = True
 
 
-if game_start == True:
+if jogo_comeca == True:
     print('O jogo começou')
     
 
@@ -38,9 +38,8 @@ if game_start == True:
     
 
 
-
-
-numero_baralhos = int(input('Digite o numero de baralhos que seráo utilizados: '))
+if jogo_comeca == True:
+    numero_baralhos = int(input('Digite o numero de baralhos que serão utilizados: '))
 
 baralho = { "Ás" : 4, "Dois" : 4, "Três" : 4, "Quatro" : 4, "Cinco" : 4, "Seis" : 4, "Sete" : 4, "Oito" : 4, "Nove" : 4,
            "Dez" : 4, "Valete" : 4, "Dama" : 4, "Rei" : 4 }
@@ -72,7 +71,7 @@ print(baralho_novo)
 
 
 
-print
+print 
 
 
 
