@@ -8,7 +8,7 @@ Created on Tue Oct 15 09:19:31 2019
 import random
 import math
 
-numero_baralho = int(input("Digite quantos baralhos serão utilizados"))
+numero_baralho = int(input("Digite quantos baralhos serão utilizados: "))
 
 baralho_jogado = {}
 
@@ -563,42 +563,42 @@ def dealer(dinheiro, numero_baralho):
     #print(pontuação)
     #print(dinheiro)
     return lista_numeros, pontuação, dinheiro_local, frase
-    
 
-numero_jogador = int(input("Digite quantos jogadores irão jogar o BlackJack!"))
+
+numero_jogador = int(input("Digite quantos jogadores irão jogar o BlackJack: "))
 
 if numero_jogador >= 1:
-    jogador_1 = str(input("Qual o nome do jogador"))
-    dinheiro_1 = int(input("Digite quanto você quer apostar"))
+    jogador_1 = str(input("Qual o nome do jogador: "))
+    dinheiro_1 = int(input("Digite quanto você quer apostar: "))
     print(retirar_carta(jogador_1, dinheiro_1, numero_baralho))
     print(dealer(dinheiro_1, numero_baralho))
     if numero_jogador >= 2:
-        jogador_2 = str(input("Qual o nome do jogador"))
-        dinheiro_2 = int(input("Digite quanto você quer apostar"))
+        jogador_2 = str(input("Qual o nome do jogador: "))
+        dinheiro_2 = int(input("Digite quanto você quer apostar: "))
         print(retirar_carta(jogador_2, dinheiro_2, numero_baralho))
         print(dealer(dinheiro_2, numero_baralho))
         if numero_jogador >= 3:
-            jogador_3 = str(input("Qual o nome do jogador"))
-            dinheiro_3 = int(input("Digite quanto você quer apostar"))
+            jogador_3 = str(input("Qual o nome do jogador: "))
+            dinheiro_3 = int(input("Digite quanto você quer apostar: "))
             print(retirar_carta(jogador_3, dinheiro_3, numero_baralho))
             print(dealer(dinheiro_3, numero_baralho))
             if numero_jogador >= 4:
-                jogador_4 = str(input("Qual o nome do jogador"))
-                dinheiro_4 = int(input("Digite quanto você quer apostar"))
+                jogador_4 = str(input("Qual o nome do jogador: "))
+                dinheiro_4 = int(input("Digite quanto você quer apostar: "))
                 print(retirar_carta(jogador_4, dinheiro_4, numero_baralho))
                 print(dealer(dinheiro_4, numero_baralho))
                 if numero_jogador >= 5:
-                    jogador_5 = str(input("Qual o nome do jogador"))
-                    dinheiro_5 = int(input("Digite quanto você quer apostar"))
+                    jogador_5 = str(input("Qual o nome do jogador: "))
+                    dinheiro_5 = int(input("Digite quanto você quer apostar: "))
                     print(retirar_carta(jogador_5, dinheiro_5, numero_baralho))
                     print(dealer(dinheiro_5, numero_baralho))
                     if numero_jogador >= 6:
-                        jogador_6 = str(input("Qual o nome do jogador"))
-                        dinheiro_6 = int(input("Digite quanto você quer apostar"))
+                        jogador_6 = str(input("Qual o nome do jogador: "))
+                        dinheiro_6 = int(input("Digite quanto você quer apostar: "))
                         print(retirar_carta(jogador_6, dinheiro_6, numero_baralho))
                         print(dealer(dinheiro_6, numero_baralho))
                         if numero_jogador >= 4:
-                            jogador_7 = str(input("Qual o nome do jogador"))
-                            dinheiro_7 = int(input("Digite quanto você quer apostar"))
+                            jogador_7 = str(input("Qual o nome do jogador: "))
+                            dinheiro_7 = int(input("Digite quanto você quer apostar: "))
                             print(retirar_carta(jogador_7, dinheiro_7, numero_baralho))
                             print(dealer(dinheiro_7, numero_baralho))
